@@ -1,0 +1,7 @@
+.app-header {
+    display: flex;
+    justify-content: flex-start;
+    color: blueviolet;
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}

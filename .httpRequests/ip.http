@@ -1,0 +1,24 @@
+###
+# @name Get ip geolocation
+GET https://api.ipify.org/?format=json
+
+Content-Type: application/json
+Access-Control-Allow-Origin: '*'
+
+###
+# @name Get ip or host geolocation
+GET http://ip-api.com/json/92.247.231.50
+
+Content-Type: application/json
+Access-Control-Allow-Origin: '*'
+
+###
+# @name Get ip goelocation
+GET http://api.ipstack.com/92.247.232.56?access_key=b12699110d42e9aab6743393bcecfc47
+
+###
+# @name Get ip geolocation
+GET http://api.ipbase.com/v2/info?apikey=ipb_live_9N1HEHqCnBWxsPNwyz85yhjOoscJTpVO8r6rKzbK&ip=92.247.232.56
+
+Content-Type: application/json
+Access-Control-Allow-Origin: '*'

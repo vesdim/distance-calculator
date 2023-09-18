@@ -1,0 +1,62 @@
+.input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5b5151e0;
+    width: 90%;
+    border: 3px solid #f0ecece0;
+    padding: 4px 5px 4px 10px;
+}
+
+.input-error {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5b5151e0;
+    width: 90%;
+    padding: 4px 5px 4px 10px;
+    border: 3px solid #ff3333;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:
+        linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 43%,#000 45%,#000 55%,rgba(0,0,0,0) 57%,rgba(0,0,0,0) 100%),
+        linear-gradient(135deg, transparent 0%,transparent 43%,#000 45%,#000 55%,transparent 57%,transparent 100%);
+}
+
+.label-wrap {
+    flex-basis: 230px;
+}
+
+.label-wrap .label{
+    display: inline-block;
+    padding: 5px 2px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #b6b5b5;
+}
+
+.error-wrap {
+    display: block;
+    width: 70%;
+}
+
+.error-wrap .errorMessage {
+    position: absolute;
+    top: 140px;
+    color: #ff3333;
+}
+
+.error-wrap.hh {
+    height: 0 !important;
+}

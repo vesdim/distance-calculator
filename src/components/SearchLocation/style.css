@@ -1,0 +1,9 @@
+.input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 14px;
+}

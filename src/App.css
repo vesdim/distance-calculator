@@ -1,0 +1,7 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+}

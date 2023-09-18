@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-weight: 600;
+    color: #5b5151e0;
+}
+
+.content>div:nth-child(odd) {
+    background: #f0ecece0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row>p {
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+}

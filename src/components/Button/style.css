@@ -1,0 +1,11 @@
+.button-wrapper {
+    /* display: flex; */
+    border: none;
+    padding: 5px 2px;
+    background: none;
+    color: #5b5151e0;
+    align-items: center;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+}

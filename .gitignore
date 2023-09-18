@@ -1,0 +1,13 @@
+.env
+.eslintcache
+.lint
+.next
+.node_repl_history
+.npm
+*.log
+bin/package.json
+coverage
+build
+node_modules
+npm-debug.*
+package-lock.json
